@@ -2,7 +2,7 @@
 import { connect } from 'cloudflare:sockets';
 
 let userID = '';
-let proxyIP = '';
+let proxyIP = '138.68.161.13';
 let DNS64Server = '';
 //let sub = '';
 let subConverter = atob('U1VCQVBJLkNNTGl1c3Nzcy5uZXQ=');
@@ -12,8 +12,8 @@ let subEmoji = 'true';
 let socks5Address = '';
 let parsedSocks5Address = {};
 let enableSocks = false;
-let enableHttp = false;
-let noTLS = 'false';
+let enableHttp = true;
+let noTLS = 'true';
 const expire = 4102329600;//2099-12-31
 let proxyIPs;
 let socks5s;
@@ -43,7 +43,7 @@ let 更新时间 = 3;
 let userIDLow;
 let userIDTime = "";
 let proxyIPPool = [];
-let path = '/?ed=2560';
+let path = '/lf';
 let 动态UUID;
 let link = [];
 let banHosts = [atob('c3BlZWQuY2xvdWRmbGFyZS5jb20=')];
